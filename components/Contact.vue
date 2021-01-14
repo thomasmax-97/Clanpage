@@ -1,24 +1,54 @@
 <template>
-<div class= "all">
- <div class="big">
-	<div class="gpg-contaier">
-		<div class="contact-box">
-			<div class="left">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.6642840453014!2d8.351064715879849!3d49.8487652384157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd85d36dd2da53%3A0x56f987f2d52e9f0f!2sGermany-playsgroup%20e.V.!5e0!3m2!1sde!2sde!4v1610207066108!5m2!1sde!2sde" width="100%" height="auto" frameborder="0" style="border:;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-			<div class="right">
-				<h2>Kontakt</h2>
-				<input type="text" class="field" placeholder="Vorname*">
-                <input type="text" class="field" placeholder="Nachname*">
-				<input type="text" class="field" placeholder="Email*">
-				<input type="text" class="field" placeholder="Telefonnummer*">
-				<textarea placeholder="Nachricht*" class="field"></textarea>
-				<button class="btn">Abschicken</button>
-			</div>
-		</div>
-	</div>
- </div>
-</div>
+  <div class="all">
+    <div class="big">
+      <div class="gpg-contaier">
+        <div class="contact-box">
+          <div class="left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.6642840453014!2d8.351064715879849!3d49.8487652384157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd85d36dd2da53%3A0x56f987f2d52e9f0f!2sGermany-playsgroup%20e.V.!5e0!3m2!1sde!2sde!4v1610207066108!5m2!1sde!2sde"
+              width="100%"
+              height="auto"
+              frameborder="0"
+              style="border:;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            />
+          </div>
+          <div class="right">
+            <h2>Kontakt</h2>
+            <input
+              type="text"
+              class="field"
+              placeholder="Vorname*"
+            >
+            <input
+              type="text"
+              class="field"
+              placeholder="Nachname*"
+            >
+            <input
+              type="text"
+              class="field"
+              placeholder="Email*"
+            >
+            <input
+              type="text"
+              class="field"
+              placeholder="Telefonnummer*"
+            >
+            <textarea
+              placeholder="Nachricht*"
+              class="field"
+            />
+            <button class="btn">
+              Abschicken
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>
