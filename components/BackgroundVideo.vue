@@ -1,5 +1,5 @@
 <template>
-  <div class="gpg-video">
+  <div class="gpg-video fixed">
     <video
       class="w-full fixed gpg-video"
       playsinline
@@ -19,10 +19,12 @@
 
 <style>
 .gpg-video {
-  position: fixed;
   margin-top: -20px;
   z-index: -1;
-  width: 100%;
-  height: auto;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 </style>
