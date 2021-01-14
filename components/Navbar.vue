@@ -64,7 +64,7 @@
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <NuxtLink
-                to="#"
+                to="/"
                 class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
@@ -88,13 +88,13 @@
                 Streamer
               </NuxtLink>
               <NuxtLink
-                to="#"
+                to="/kontakt"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Kontakt
               </NuxtLink>
               <NuxtLink
-                to="#"
+                to="*"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Partner
