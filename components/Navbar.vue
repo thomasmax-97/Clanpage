@@ -70,19 +70,19 @@
                 Home
               </NuxtLink>
               <NuxtLink
-                to="#"
+                to="/team"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Team
               </NuxtLink>
               <NuxtLink
-                to="#"
+                to="/verein"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Verein
               </NuxtLink>
               <NuxtLink
-                to="#"
+                to="/streamer"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Streamer
