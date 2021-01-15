@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-black">
+  <nav class="text-gray-400 bg-gray-900 body-font">
     <div class="gpg-navbar">
       <div class="relative flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">

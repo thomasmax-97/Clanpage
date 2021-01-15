@@ -15,7 +15,9 @@
   </div>
 </template>
 
-<script></script>
+<script>
+
+</script>
 
 <style>
 .gpg-video {
