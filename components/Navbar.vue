@@ -82,28 +82,33 @@
                 Verein
               </NuxtLink>
               <NuxtLink
+                to="/mitglied"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Mitglied werden 
+              </NuxtLink>
+              <NuxtLink
                 to="/streamer"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Streamer
               </NuxtLink>
               <NuxtLink
-                to="/kontakt"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Kontakt
-              </NuxtLink>
-              <NuxtLink
-                to="*"
+                to="/partner"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Partner
               </NuxtLink>
+              <a 
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" 
+              target="_blank" href="https://forum.germany-playsgroup.de/">
+              Forum
+              </a>
               <NuxtLink
-                to="#"
+                to="/kontakt"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
-                Forum
+                Kontakt
               </NuxtLink>
             </div>
           </div>

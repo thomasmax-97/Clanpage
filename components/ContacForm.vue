@@ -21,6 +21,19 @@
         <p class="leading-relaxed mb-5">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris arcu, aliquet in finibus sed
         </p>
+        
+        <div class="relative mb-4">
+          <label
+            for="name"
+            class="leading-7 text-sm text-gray-400"
+          >Name</label>
+          <input
+            id="Name"
+            type="Name"
+            name="Name"
+            class="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          >
+        </div>
         <div class="relative mb-4">
           <label
             for="email"
