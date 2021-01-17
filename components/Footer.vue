@@ -21,7 +21,17 @@
           Copyright © 2021 Alle Rechte vorbehalten | Germany Playsgroup e.V.
           
         </p>
+        
+      <span class=" text-gray-400 inline-flex justify-center sm:ml-auto sm:mt-0 mt-1 justify-end sm:justify-start">
+        <a class="sm:pl-4  sm:ml-4  sm:border-l-2"></a>
+        <a class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium" href="/team"> Impressum</a>
+        <a class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium" href="/kontakt"> Kontakt</a>
+        <a class="sm:pl-2 sm:ml-4  sm:border-l-2"></a>
+      </span >
+      
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        
+        
           <a class="text-gray-400">
             <svg
               fill="currentColor"
@@ -57,10 +67,7 @@
               />
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               <div>
-                 <a href="http://wiki.selfhtml.org/wiki/href" 
-             title="mehr Informationen">
-        Das href-Attribut
-        </a>
+                
               </div>
             </svg>
           </a>
@@ -87,7 +94,9 @@
             </svg>
           </a>
         </span>
+        
       </div>
+      
     </footer>
   </div>
 </template>
