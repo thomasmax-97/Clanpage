@@ -1,10 +1,8 @@
 <template>
-    
   <div>
-    
-    <Applyhead/>
-    <Apply/>
-    <Faq/>
+    <Applyhead />
+    <Apply />
+    <Faq />
   </div>
 </template>
 <script>
@@ -19,3 +17,4 @@ export default {
     Faq,
   }
 }
+</script>

@@ -15,7 +15,7 @@ import Partner from '@/components/Partner'
 
 export default {
   components: {
-    Partner
+    Partner,
   }
 }
 </script>

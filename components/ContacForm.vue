@@ -19,7 +19,8 @@
           Kontakt
         </h2>
         <p class="leading-relaxed mb-5">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris arcu, aliquet in finibus sed
+          Du hast nicht die richtigen Informationen gefunden und benötigst Hilfe?
+        Das ist kein Problem, wir bieten dir mehrere Möglichkeiten uns zu kontaktieren, unser  Team wird dir schnell weiterhelfen.
         </p>
         
         <div class="relative mb-4">
@@ -60,9 +61,6 @@
         <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
           Abschicken
         </button>
-        <p class="text-xs text-gray-400 text-opacity-90 mt-3">
-          Vivamus nec eros justo. Suspendisse tortor torto
-        </p>
       </div>
     </div>
   </section>
