@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/nav'
 import Footer from '@/components/Footer'
 import BgParticleVideo from '@/components/bg-particle'
 

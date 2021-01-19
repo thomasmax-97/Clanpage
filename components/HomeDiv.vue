@@ -22,7 +22,7 @@
 <style>
 /* TODO MAKE RESPONSIVE */
 .gpg-home-container{
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -39,6 +39,11 @@
   font-weight: bold;
   width:min-content;
 }
+.gpg-home-container{
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }
 @media screen and (max-width: 30em) {
 .gpg-header{
@@ -46,5 +51,11 @@
   font-weight: bold;
   width:min-content;
 }
+.gpg-home-container{
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 }
 </style>
