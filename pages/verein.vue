@@ -1,10 +1,10 @@
 <template>
   <div class="gpg-about">
-    <section class="bg-gray-200  bg-opacity-25">
+    <section class="bg-gray-700  bg-opacity-50">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:flex items-center">
           <div class="lg:w-1/2">
-            <h2 class="text-white dark:text-gray-100 text-3xl font-bold">
+            <h2 class="text-white dark:text-gray-300 text-3xl font-bold">
               Die Germanys-Playsgroup e.V.
             </h2>
             <p class="text-white lg:max-w-md mt-4">
@@ -32,6 +32,8 @@
       </div>
     </section>
   </div>
+
+  
 </template>
 
 <script>
