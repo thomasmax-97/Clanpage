@@ -13,7 +13,7 @@
           <a class="sm:pl-4  sm:ml-4  sm:border-l-2" />
           <a
             class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium"
-            href="/team"
+            href="/impressum"
           > Impressum</a>
           <a
             class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium"
