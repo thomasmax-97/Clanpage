@@ -11,16 +11,16 @@
 
         <span class=" text-gray-400 inline-flex justify-center sm:ml-auto sm:mt-0 mt-1 justify-end sm:justify-start">
           <a class="sm:pl-4  sm:ml-4  sm:border-l-2" />
-          <a
+          <NuxtLink
             class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium"
-            href="/impressum"
-          > Impressum</a>
-          <a
+            to="/impressum"
+          >Impressum</NuxtLink>
+          <NuxtLink
             class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium"
-            href="/kontakt"
-          > Kontakt</a>
+            to="/kontakt"
+          >Kontakt</NuxtLink>
           <a class="sm:pl-2 sm:ml-4  sm:border-l-2" />
-        </span>
+          </nuxtlink></span>
 
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
 
