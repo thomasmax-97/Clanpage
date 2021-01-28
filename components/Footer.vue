@@ -17,8 +17,8 @@
           >Impressum</NuxtLink>
           <NuxtLink
             class="text-gray-300  text-lg  hover:text-white px-4 py-2 rounded-md text-sm font-medium"
-            to="/kontakt"
-          >Kontakt</NuxtLink>
+            to="/datenschutz"
+          >Datenschutz</NuxtLink>
           <a class="sm:pl-2 sm:ml-4  sm:border-l-2" />
           </nuxtlink></span>
 
