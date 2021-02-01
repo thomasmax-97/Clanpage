@@ -3,11 +3,11 @@ export default {
   head: {
     title: 'GPG-Clanpage',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {hid: 'description', name: 'description', content: ''},
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -33,15 +33,10 @@ export default {
     '@nuxtjs/axios',
   ],
 
-
-  publicRuntimeConfig: {
-    axios: {
-      browserBaseURL: process.env.BROWSER_BASE_URL
-    }
-  },
-
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
+  axios: {
+    // baseURL: process.env.BROWSER_BASE_URL
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

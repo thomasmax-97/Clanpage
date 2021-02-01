@@ -1,7 +1,7 @@
 <template>
   <div class="mb-auto h-10">
-    <bg-video />
-    <HomeDiv />
+    <bg-video/>
+    <HomeDiv/>
   </div>
 </template>
 
@@ -9,11 +9,11 @@
 import BgVideo from '@/components/BackgroundVideo'
 import HomeDiv from '@/components/HomeDiv'
 
-export default{
-  components:{
+export default {
+  components: {
     BgVideo,
     HomeDiv
-  }
+  },
 }
 </script>
 
