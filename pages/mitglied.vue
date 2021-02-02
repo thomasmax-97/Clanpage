@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Applyhead />
+    <Applyhead :data="{heading, content}" />
     <Apply />
-    <Faq />
+    <Faq :data="{faq}" />
   </div>
 </template>
 <script>
@@ -15,6 +15,21 @@ export default {
     Apply,
     Applyhead,
     Faq,
-  }
+  },
+  async asyncData({$axios}){
+    let {data} = await $axios.get('api/member')
+
+    let {
+      content,
+      heading,
+      faq : faq
+    } = data
+
+    return {
+      content,
+      heading,
+      faq
+    }
+  },
 }
 </script>

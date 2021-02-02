@@ -6,11 +6,11 @@
           Unser Team
         </h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.
+          {{ content }}
         </p>
       </div>
       <div class="flex flex-wrap -m-4">
-        <team-card />
+        <team-card :data="{players}" />
       </div>
     </div>
   </section>
@@ -22,6 +22,19 @@ import TeamCard from '@/components/TeamCard'
 export default {
   components:{
     TeamCard
-  }
+  },
+  async asyncData({$axios}){
+    let {data} = await $axios.get('api/team')
+
+    let {
+      content,
+      team_players: players
+    } = data.data
+
+    return {
+      content,
+      players
+    }
+  },
 }
 </script>
