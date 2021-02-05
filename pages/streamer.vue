@@ -1,11 +1,9 @@
 <template>
-  <section class="text-gray-400 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap -m-4" v-for="item in data">
-        <StreamCard :data="item"/>
-      </div>
+  <div class="streamer">
+    <div v-for=" item in data">
+      <StreamCard :data="item"/>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>

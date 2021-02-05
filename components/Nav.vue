@@ -3,7 +3,7 @@
     <div class="relative flex items-center justify-between h-16">
       <!-- Header logo -->
       <div class=" space-x-4  w-auto md:block h-10 text-white">
-        <a class="text-white" />
+        <a class="text-white"/>
         <a class="text-white text-xl">Germany Playsgroup e.V.</a>
       </div>
 
@@ -19,7 +19,7 @@
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path d="M4 6h16M4 12h16M4 18h16" />
+            <path d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
         </button>
       </div>
@@ -52,12 +52,12 @@
           >
             Mitglied werden
           </NuxtLink>
-          <NuxtLink
-            to="/streamer"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Streamer
-          </NuxtLink>
+          <!--          <NuxtLink-->
+          <!--            to="/streamer"-->
+          <!--            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"-->
+          <!--          >-->
+          <!--            Streamer-->
+          <!--          </NuxtLink>-->
           <NuxtLink
             to="/partner"
             class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -103,6 +103,7 @@
       </transition>
 
       <!-- Drawer Menu -->
+      <!--TODO: CHANGE TO NUXTLINK-->
       <aside
         class="p-5 transform top-0 left-0 w-64 bg-gray-900 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
@@ -121,7 +122,7 @@
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M6 18L18 6M6 6l12 12" />
+              <path d="M6 18L18 6M6 6l12 12"/>
             </svg>
           </button>
         </div>
@@ -163,11 +164,11 @@
             >Mitglied werden</a>
           </li>
           <li>
-            <a
-              href="/streamer"
-              class="my-4 inline-block"
-              @click="isOpen = false"
-            >Stremer</a>
+            <!--            <a-->
+            <!--              href="/streamer"-->
+            <!--              class="my-4 inline-block"-->
+            <!--              @click="isOpen = false"-->
+            <!--            >Stremer</a>-->
           </li>
           <li>
             <a
@@ -200,8 +201,8 @@
         </ul>
 
         <div class="follow">
-          <p class="italic font-sans text-sm" />
-          <div class="social flex space-x-5 mt-4 " />
+          <p class="italic font-sans text-sm"/>
+          <div class="social flex space-x-5 mt-4 "/>
         </div>
       </aside>
     </div>

@@ -28,5 +28,6 @@
   height: 100vh;
   top: 0;
   left: 0;
+  background-image: url('~@/assets/images/bg-image.jpg');
 }
 </style>
