@@ -1,17 +1,5 @@
 <template>
-  <div class="gpg-video fixed">
-    <video
-      class="w-full fixed gpg-video"
-      playsinline
-      autoplay
-      loop
-      muted
-    >
-      <source
-        src="~/assets/videos/bg-particle.mp4"
-        type="video/mp4"
-      >
-    </video>
+  <div class="gpg-bg-image fixed">
   </div>
 </template>
 
@@ -20,7 +8,7 @@
 </script>
 
 <style>
-.gpg-video {
+.gpg-bg-image {
   margin-top: -20px;
   z-index: -1;
   object-fit: cover;
@@ -28,5 +16,7 @@
   height: 100vh;
   top: 0;
   left: 0;
+  background-image: url('~@/assets/images/bg-image.jpg')
+
 }
 </style>

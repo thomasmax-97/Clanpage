@@ -1,13 +1,8 @@
 <template>
   <!-- component -->
-  <section class="py-12">
-    <div class="container mx-auto">
-      <div class="flex flex-wrap px-6">
-        <Partner />
-        <Partner />
-      </div>
-    </div>
-  </section>
+  <div class="gpg-partner bg-gray-700  bg-opacity-50">
+    <Partner/>
+  </div>
 </template>
 
 <script>

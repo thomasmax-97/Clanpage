@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col h-screen justify-between jarallax">
-    <bg-particle-video />
-    <Navbar />
-    <Nuxt />
-    <Footer />
+    <bg-particle-video/>
+    <Navbar/>
+    <Nuxt/>
+    <Footer/>
   </div>
 </template>
 

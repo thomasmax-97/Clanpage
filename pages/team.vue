@@ -6,11 +6,11 @@
           Unser Team
         </h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-          {{ content }}
+          {{content}}
         </p>
       </div>
-      <div class="flex flex-wrap -m-4">
-        <team-card :data="{players}" />
+      <div>
+        <team-card :data="{players}"/>
       </div>
     </div>
   </section>
@@ -20,10 +20,10 @@
 import TeamCard from '@/components/TeamCard'
 
 export default {
-  components:{
+  components: {
     TeamCard
   },
-  async asyncData({$axios}){
+  async asyncData({$axios}) {
     let {data} = await $axios.get('api/team')
 
     let {
