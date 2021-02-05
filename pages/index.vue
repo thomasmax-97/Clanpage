@@ -14,6 +14,10 @@ export default {
     BgVideo,
     HomeDiv
   },
+  created() {
+    console.log("URL: " + process.env.API_URL)
+    console.log("Base URL: " + process.env.BASE_URL)
+  }
 }
 </script>
 
